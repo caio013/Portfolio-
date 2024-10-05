@@ -4,11 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caio Vinicius - Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <header class="header">
+      <a href="#about">Sobre</a>
+      <a href="#projects">Projetos</a>
+      <a href="#skills">Skills</a>
+    </header>
+
+    <main class="container-main">
+      <section id="about" class="about">
+        <h1>Caio Vinicius</h1>
+        <h2>Desenvolvedor Front End</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, maiores!
+          Atque impedit, aspernatur, facere vitae quas incidunt perspiciatis est
+          cum voluptate dicta debitis veritatis? Adipisci tenetur eum
+          voluptatibus officiis soluta.
+        </p>
+        <button class="btn">Currículo</button>
+        <button class="btn">
+          <a href="mailto:caiovinicius96@yahoo.com">Email</a>
+        </button>
+        <a href="https://github.com/caio013" target="_blank"
+          ><img src="images/github.svg" alt="github"
+        /></a>
+        <a href="https://linkedin.com/in/caioviniciusqueiroz" target="_blank"
+          ><img src="images/linkedin.svg" alt="linkedin"
+        /></a>
+      </section>
+
+      <section id="projects" class="projects">
+        <h3>Projetos</h3>
+        <button class="arrow"><</button>
+        <div class="project-card">
+          <div class="image-project">imagem do projeto</div>
+          <h4>Projeto 1</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Perferendis, autem. Quibusdam possimus eligendi ex nostrum excepturi
+            sapiente tempora, rem itaque tempore, saepe, quae pariatur deserunt
+            sit fugiat. Voluptate, molestias consectetur!
+          </p>
+          <a href="#"><img src="images/link.svg" alt="page-project" /></a>
+          <a href="#"><img src="images/github.svg" alt="github-project" /></a>
+        </div>
+        <button class="arrow">></button>
+      </section>
+
+      <section id="skills" class="skills">
+        <h3>Skills</h3>
+        <div class="container-skills">
+          <div class="skills-card">
+            <h4>HTML</h4>
+          </div>
+          <div class="skills-card">
+            <h4>CSS</h4>
+          </div>
+          <div class="skills-card">
+            <h4>JavaScript</h4>
+          </div>
+          <div class="skills-card">
+            <h4>Git</h4>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
