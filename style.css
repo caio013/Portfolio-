@@ -38,23 +38,48 @@ body{
   height: 100vh;
   margin: 0 200px;
   background-color: rgb(70, 71, 72);
-  padding: 50px;
 }
 
 .container-main .about{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 40px 0;
+  background-color: rgb(129, 135, 141);
 }
 
 .about h1{
-  font-size: 4rem;
+  font-size: 3rem;
+  font-weight:100;
+  text-transform:capitalize;
+  margin: 115px 0 0 0;
   font-weight:200;
-  text-transform: uppercase;
-  margin: 15p;
 }
 .about h2{
   font-size: 3rem;
-  font-weight:bold;
+  text-transform: capitalize;
+  color: #ddd;
+  margin-bottom: 50px;
 }
-
+.about p{
+  line-height: 25px;
+  text-align:justify;
+  margin-bottom: 50px;
+}
+.about-click{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.btn{
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 10px;
+  color: #ddd;
+  background-color: rgb(70, 71, 72);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
